@@ -91,8 +91,14 @@ class DFSSolver:
         Returns:
             Dictionary with statistics (visited nodes, path length)
         """
+        # Calculate efficiency only if we have both a path and visited nodes
+        if self.visited and self.path:
+            efficiency = len(self.path) / len(self.visited)
+        else:
+            efficiency = 0
+        
         return {
             'visited_nodes': len(self.visited),
             'path_length': len(self.path),
-            'efficiency': len(self.path) / len(self.visited) if self.visited else 0
+            'efficiency': efficiency
         }

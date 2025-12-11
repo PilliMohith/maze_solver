@@ -25,7 +25,11 @@ class Maze:
         """
         self.grid = grid
         self.rows = len(grid)
+        # Validate that all rows have the same length
         self.cols = len(grid[0]) if grid else 0
+        for i, row in enumerate(grid):
+            if len(row) != self.cols:
+                raise ValueError(f"Row {i} has length {len(row)}, expected {self.cols}")
         self.start = self._find_position('S')
         self.end = self._find_position('E')
         
