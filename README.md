@@ -1,16 +1,16 @@
-# Maze Solver - DFS Implementation 🧩
+# Maze Solver - DFS Implementation
 
-An educational implementation of a maze solver using the **Depth-First Search (DFS)** algorithm. This project is designed for learning fundamental algorithms and contributing to open source!
+An educational implementation of a maze solver using the **Depth-First Search (DFS)** algorithm. This project is designed for learning fundamental algorithms and contributing to open source.
 
-## 🎯 What is This?
+## What is This?
 
-This project demonstrates how to solve mazes using DFS, a fundamental graph traversal algorithm. It's perfect for:
+This project demonstrates how to solve mazes using DFS, a fundamental graph traversal algorithm. It's useful for:
 - Learning about graph algorithms
 - Understanding recursion and backtracking
 - Contributing to open source projects
 - Visualizing algorithm behavior
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.6 or higher
@@ -21,9 +21,9 @@ This project demonstrates how to solve mazes using DFS, a fundamental graph trav
 python main.py
 ```
 
-This will run the solver on all example mazes and display the solutions!
+This will run the solver on all example mazes and display the solutions.
 
-## 📚 How It Works
+## How It Works
 
 ### Depth-First Search (DFS) Algorithm
 
@@ -42,7 +42,7 @@ maze_solver/
 ├── dfs_solver.py     # DFS algorithm implementation
 ├── example_mazes.py  # Pre-defined test mazes
 ├── main.py           # Main entry point
-└── README.md         # This file!
+└── README.md         # This file
 ```
 
 ### Key Components
@@ -69,7 +69,7 @@ Provides test mazes of varying difficulty:
 - **Spiral**: Interesting pattern (7x7)
 - **Impossible**: No solution (demonstrates correctness)
 
-## 🎓 Understanding the Output
+## Understanding the Output
 
 When you run the program, you'll see:
 
@@ -94,7 +94,7 @@ Statistics:
   - Efficiency: 69.23%
 ```
 
-## 🤝 How to Contribute
+## How to Contribute
 
 We welcome contributions! Here are some ideas:
 
@@ -125,13 +125,13 @@ We welcome contributions! Here are some ideas:
 6. Push to your branch (`git push origin feature/your-feature`)
 7. Open a Pull Request
 
-## 📖 Learning Resources
+## Learning Resources
 
 - [DFS Algorithm Explanation](https://en.wikipedia.org/wiki/Depth-first_search)
 - [Graph Traversal Algorithms](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
 - [Python Recursion Tutorial](https://realpython.com/python-recursion/)
 
-## 🧪 Testing Your Changes
+## Testing Your Changes
 
 After making changes, run the program to ensure everything works:
 
@@ -144,7 +144,7 @@ Check that:
 - The impossible maze reports "No solution"
 - The output is clear and readable
 
-## 💡 Ideas for Extensions
+## Ideas for Extensions
 
 - **Multiple algorithms**: Compare DFS, BFS, A*, Dijkstra
 - **Maze generator**: Create random mazes
@@ -154,14 +154,14 @@ Check that:
 - **File I/O**: Load mazes from files
 - **Web interface**: Make it accessible online
 
-## 📝 Code Style
+## Code Style
 
 - Use meaningful variable names
 - Add docstrings to functions and classes
 - Follow PEP 8 style guidelines
 - Comment complex logic
 
-## 🐛 Found a Bug?
+## Found a Bug?
 
 Please open an issue with:
 - Description of the bug
@@ -169,12 +169,10 @@ Please open an issue with:
 - Expected vs actual behavior
 - Your Python version
 
-## 📜 License
+## License
 
 This project is open source and available for educational purposes.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
-Created for club members to learn algorithms and contribute to open source!
-
-Happy coding! 🎉
+Created for club members to learn algorithms and contribute to open source.

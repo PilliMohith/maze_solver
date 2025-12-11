@@ -1,10 +1,10 @@
-# Contributing to Maze Solver 🤝
+# Contributing to Maze Solver
 
-Thank you for your interest in contributing! This guide will help you get started.
+Thank you for your interest in contributing. This guide will help you get started.
 
-## 🌟 First Time Contributing?
+## First Time Contributing?
 
-Welcome! We're excited to have you. Don't worry if you're new to open source - we all started somewhere!
+Welcome. If you're new to open source, this is a great place to start.
 
 ### Quick Start for Beginners
 
@@ -13,12 +13,12 @@ Welcome! We're excited to have you. Don't worry if you're new to open source - w
 3. **Pick a task**: Check the "Good First Issues" below
 4. **Ask questions**: Don't hesitate to ask if something is unclear
 
-## 📋 Good First Issues
+## Good First Issues
 
-These are perfect for newcomers:
+These are suitable for newcomers:
 
 ### 1. Add a New Example Maze
-**Difficulty**: ⭐ Easy
+**Difficulty**: Easy
 
 Edit `example_mazes.py` and add a new function:
 
@@ -39,12 +39,12 @@ def get_my_maze():
 Then add it to the `MAZE_EXAMPLES` dictionary.
 
 ### 2. Improve Documentation
-**Difficulty**: ⭐ Easy
+**Difficulty**: Easy
 
-Add more comments explaining how the code works. Look for sections that could be clearer!
+Add more comments explaining how the code works. Look for sections that could be clearer.
 
 ### 3. Add Input Validation
-**Difficulty**: ⭐⭐ Medium
+**Difficulty**: Medium
 
 Add checks to ensure:
 - Mazes have exactly one Start and one End
@@ -52,11 +52,11 @@ Add checks to ensure:
 - Only valid characters (0, 1, 'S', 'E') are used
 
 ### 4. Implement BFS Solver
-**Difficulty**: ⭐⭐⭐ Advanced
+**Difficulty**: Advanced
 
-Create `bfs_solver.py` similar to `dfs_solver.py` but using Breadth-First Search instead. BFS uses a queue and finds the shortest path!
+Create `bfs_solver.py` similar to `dfs_solver.py` but using Breadth-First Search instead. BFS uses a queue and finds the shortest path.
 
-## 🔧 Development Workflow
+## Development Workflow
 
 ### 1. Fork and Clone
 
@@ -91,9 +91,9 @@ python main.py
 ```
 
 Make sure:
-- ✅ The program runs without errors
-- ✅ Your changes work as expected
-- ✅ You didn't break existing functionality
+- The program runs without errors
+- Your changes work as expected
+- You didn't break existing functionality
 
 ### 5. Commit Your Changes
 
@@ -114,9 +114,9 @@ Good commit messages:
 git push origin feature/your-feature-name
 ```
 
-Then go to GitHub and create a Pull Request!
+Then go to GitHub and create a Pull Request.
 
-## 📝 Code Style Guidelines
+## Code Style Guidelines
 
 ### Python Style (PEP 8)
 
@@ -170,7 +170,7 @@ def solve_maze(maze):
 x = 5
 ```
 
-## 🎯 What to Contribute
+## What to Contribute
 
 ### Easy Contributions
 - Fix typos in documentation
@@ -191,7 +191,7 @@ x = 5
 - Performance optimizations
 - Add GUI
 
-## ✅ Pull Request Checklist
+## Pull Request Checklist
 
 Before submitting, ensure:
 
@@ -202,7 +202,7 @@ Before submitting, ensure:
 - [ ] Commit messages are clear
 - [ ] PR description explains the changes
 
-## 🎓 Learning Resources
+## Learning Resources
 
 ### Algorithms
 - [Visualizing DFS](https://visualgo.net/en/dfsbfs)
@@ -216,13 +216,13 @@ Before submitting, ensure:
 - [GitHub Guides](https://guides.github.com/)
 - [Git Handbook](https://guides.github.com/introduction/git-handbook/)
 
-## ❓ Questions?
+## Questions?
 
 - **Code questions**: Open an issue with the "question" label
 - **Bug reports**: Open an issue with the "bug" label
 - **Feature ideas**: Open an issue with the "enhancement" label
 
-## 🌈 Code of Conduct
+## Code of Conduct
 
 Be respectful and inclusive. We're all here to learn and help each other!
 
@@ -231,8 +231,8 @@ Be respectful and inclusive. We're all here to learn and help each other!
 - Respect different skill levels
 - Help others when you can
 
-## 🎉 Recognition
+## Recognition
 
-All contributors will be recognized! Your contributions help everyone learn.
+All contributors will be recognized. Your contributions help everyone learn.
 
-Thank you for contributing to Maze Solver! 🙏
+Thank you for contributing to Maze Solver.
